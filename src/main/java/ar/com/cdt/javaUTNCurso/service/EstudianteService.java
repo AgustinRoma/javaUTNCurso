@@ -23,7 +23,11 @@ import ar.com.cdt.javaUTNCurso.exception.TPInvalidActionException;
 import ar.com.cdt.javaUTNCurso.exception.TPNoStudentFoundException;
 import ar.com.cdt.javaUTNCurso.models.EstudianteModel;
 import ar.com.cdt.javaUTNCurso.models.MessageModel;
-
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
 
 @SpringBootApplication
